@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A88E0F4168580D20026BBF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A88E0F3168580D20026BBF4 /* Foundation.framework */; };
+		4A88E0F7168580D20026BBF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A88E0F6168580D20026BBF4 /* main.m */; };
+		4A88E0FB168580D20026BBF4 /* iOSVirtualCameraSA.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A88E0FA168580D20026BBF4 /* iOSVirtualCameraSA.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A88E0ED168580D20026BBF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4A88E0FB168580D20026BBF4 /* iOSVirtualCameraSA.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A88E0EF168580D20026BBF4 /* iOSVirtualCameraSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iOSVirtualCameraSA; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A88E0F3168580D20026BBF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A88E0F6168580D20026BBF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A88E0F9168580D20026BBF4 /* iOSVirtualCameraSA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSVirtualCameraSA-Prefix.pch"; sourceTree = "<group>"; };
+		4A88E0FA168580D20026BBF4 /* iOSVirtualCameraSA.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = iOSVirtualCameraSA.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A88E0EC168580D20026BBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A88E0F4168580D20026BBF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A88E0E4168580D20026BBF4 = {
+			isa = PBXGroup;
+			children = (
+				4A88E0F5168580D20026BBF4 /* iOSVirtualCameraSA */,
+				4A88E0F2168580D20026BBF4 /* Frameworks */,
+				4A88E0F0168580D20026BBF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A88E0F0168580D20026BBF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A88E0EF168580D20026BBF4 /* iOSVirtualCameraSA */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A88E0F2168580D20026BBF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A88E0F3168580D20026BBF4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A88E0F5168580D20026BBF4 /* iOSVirtualCameraSA */ = {
+			isa = PBXGroup;
+			children = (
+				4A88E0F6168580D20026BBF4 /* main.m */,
+				4A88E0FA168580D20026BBF4 /* iOSVirtualCameraSA.1 */,
+				4A88E0F8168580D20026BBF4 /* Supporting Files */,
+			);
+			path = iOSVirtualCameraSA;
+			sourceTree = "<group>";
+		};
+		4A88E0F8168580D20026BBF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A88E0F9168580D20026BBF4 /* iOSVirtualCameraSA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A88E0EE168580D20026BBF4 /* iOSVirtualCameraSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A88E0FE168580D20026BBF4 /* Build configuration list for PBXNativeTarget "iOSVirtualCameraSA" */;
+			buildPhases = (
+				4A88E0EB168580D20026BBF4 /* Sources */,
+				4A88E0EC168580D20026BBF4 /* Frameworks */,
+				4A88E0ED168580D20026BBF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSVirtualCameraSA;
+			productName = iOSVirtualCameraSA;
+			productReference = 4A88E0EF168580D20026BBF4 /* iOSVirtualCameraSA */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A88E0E6168580D20026BBF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = hayashi;
+			};
+			buildConfigurationList = 4A88E0E9168580D20026BBF4 /* Build configuration list for PBXProject "iOSVirtualCameraSA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A88E0E4168580D20026BBF4;
+			productRefGroup = 4A88E0F0168580D20026BBF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A88E0EE168580D20026BBF4 /* iOSVirtualCameraSA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A88E0EB168580D20026BBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A88E0F7168580D20026BBF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A88E0FC168580D20026BBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A88E0FD168580D20026BBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A88E0FF168580D20026BBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSVirtualCameraSA/iOSVirtualCameraSA-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A88E100168580D20026BBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSVirtualCameraSA/iOSVirtualCameraSA-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A88E0E9168580D20026BBF4 /* Build configuration list for PBXProject "iOSVirtualCameraSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A88E0FC168580D20026BBF4 /* Debug */,
+				4A88E0FD168580D20026BBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A88E0FE168580D20026BBF4 /* Build configuration list for PBXNativeTarget "iOSVirtualCameraSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A88E0FF168580D20026BBF4 /* Debug */,
+				4A88E100168580D20026BBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A88E0E6168580D20026BBF4 /* Project object */;
+}
