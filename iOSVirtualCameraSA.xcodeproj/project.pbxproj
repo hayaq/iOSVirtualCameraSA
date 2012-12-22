@@ -9,7 +9,24 @@
 /* Begin PBXBuildFile section */
 		4A88E0F4168580D20026BBF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A88E0F3168580D20026BBF4 /* Foundation.framework */; };
 		4A88E0F7168580D20026BBF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A88E0F6168580D20026BBF4 /* main.m */; };
-		4A88E0FB168580D20026BBF4 /* iOSVirtualCameraSA.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A88E0FA168580D20026BBF4 /* iOSVirtualCameraSA.1 */; };
+		4A88E104168581040026BBF4 /* QTCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A88E103168581040026BBF4 /* QTCamera.m */; };
+		4A88E1061685811B0026BBF4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A88E1051685811B0026BBF4 /* QTKit.framework */; };
+		4A88E108168581230026BBF4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A88E107168581230026BBF4 /* CoreVideo.framework */; };
+		4A88E11A16859C6D0026BBF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A88E0F3168580D20026BBF4 /* Foundation.framework */; };
+		4A88E12216859C6D0026BBF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A88E12016859C6D0026BBF4 /* InfoPlist.strings */; };
+		4A88E12416859C6D0026BBF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A88E12316859C6D0026BBF4 /* main.m */; };
+		4A88E12816859C6D0026BBF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A88E12716859C6D0026BBF4 /* AppDelegate.m */; };
+		4A88E12A16859C6D0026BBF4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A88E12916859C6D0026BBF4 /* Default.png */; };
+		4A88E12C16859C6D0026BBF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A88E12B16859C6D0026BBF4 /* Default@2x.png */; };
+		4A88E12E16859C6D0026BBF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A88E12D16859C6D0026BBF4 /* Default-568h@2x.png */; };
+		4A88E13116859C6D0026BBF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A88E13016859C6D0026BBF4 /* ViewController.m */; };
+		4A88E13416859C6D0026BBF4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A88E13216859C6D0026BBF4 /* ViewController.xib */; };
+		4A88E13B16859CC10026BBF4 /* GLESView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A88E13A16859CC10026BBF4 /* GLESView.m */; };
+		4A88E13F16859D2D0026BBF4 /* SHMVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A88E13E16859D2D0026BBF4 /* SHMVideo.m */; };
+		4A88E14016859D2D0026BBF4 /* SHMVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A88E13E16859D2D0026BBF4 /* SHMVideo.m */; };
+		4A88E14316859D620026BBF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A88E14216859D620026BBF4 /* UIKit.framework */; };
+		4A88E14516859D6B0026BBF4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A88E14416859D6B0026BBF4 /* OpenGLES.framework */; };
+		4A88E14716859D6F0026BBF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A88E14616859D6F0026BBF4 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +36,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				4A88E0FB168580D20026BBF4 /* iOSVirtualCameraSA.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -30,7 +46,31 @@
 		4A88E0F3168580D20026BBF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4A88E0F6168580D20026BBF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A88E0F9168580D20026BBF4 /* iOSVirtualCameraSA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSVirtualCameraSA-Prefix.pch"; sourceTree = "<group>"; };
-		4A88E0FA168580D20026BBF4 /* iOSVirtualCameraSA.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = iOSVirtualCameraSA.1; sourceTree = "<group>"; };
+		4A88E102168581040026BBF4 /* QTCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTCamera.h; sourceTree = "<group>"; };
+		4A88E103168581040026BBF4 /* QTCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTCamera.m; sourceTree = "<group>"; };
+		4A88E1051685811B0026BBF4 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		4A88E107168581230026BBF4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4A88E11616859C6D0026BBF4 /* iOSVirtualCameraClientSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSVirtualCameraClientSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A88E11F16859C6D0026BBF4 /* iOSVirtualCameraClientSA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSVirtualCameraClientSA-Info.plist"; sourceTree = "<group>"; };
+		4A88E12116859C6D0026BBF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A88E12316859C6D0026BBF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A88E12516859C6D0026BBF4 /* iOSVirtualCameraClientSA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSVirtualCameraClientSA-Prefix.pch"; sourceTree = "<group>"; };
+		4A88E12616859C6D0026BBF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A88E12716859C6D0026BBF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A88E12916859C6D0026BBF4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4A88E12B16859C6D0026BBF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4A88E12D16859C6D0026BBF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4A88E12F16859C6D0026BBF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A88E13016859C6D0026BBF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A88E13316859C6D0026BBF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4A88E13916859CC10026BBF4 /* GLESView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESView.h; sourceTree = "<group>"; };
+		4A88E13A16859CC10026BBF4 /* GLESView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESView.m; sourceTree = "<group>"; };
+		4A88E13D16859D2D0026BBF4 /* SHMVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHMVideo.h; sourceTree = "<group>"; };
+		4A88E13E16859D2D0026BBF4 /* SHMVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHMVideo.m; sourceTree = "<group>"; };
+		4A88E14216859D620026BBF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A88E14416859D6B0026BBF4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		4A88E14616859D6F0026BBF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4ACB51431685C8A80012284B /* iOSVirtualCameraSA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSVirtualCameraSA.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +78,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A88E108168581230026BBF4 /* CoreVideo.framework in Frameworks */,
+				4A88E1061685811B0026BBF4 /* QTKit.framework in Frameworks */,
 				4A88E0F4168580D20026BBF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A88E11316859C6D0026BBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A88E14716859D6F0026BBF4 /* QuartzCore.framework in Frameworks */,
+				4A88E14516859D6B0026BBF4 /* OpenGLES.framework in Frameworks */,
+				4A88E14316859D620026BBF4 /* UIKit.framework in Frameworks */,
+				4A88E11A16859C6D0026BBF4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,8 +101,9 @@
 		4A88E0E4168580D20026BBF4 = {
 			isa = PBXGroup;
 			children = (
+				4A88E13C16859D2D0026BBF4 /* SHMVideo */,
 				4A88E0F5168580D20026BBF4 /* iOSVirtualCameraSA */,
-				4A88E0F2168580D20026BBF4 /* Frameworks */,
+				4A88E11D16859C6D0026BBF4 /* iOSVirtualCameraClientSA */,
 				4A88E0F0168580D20026BBF4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				4A88E0EF168580D20026BBF4 /* iOSVirtualCameraSA */,
+				4A88E11616859C6D0026BBF4 /* iOSVirtualCameraClientSA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,17 +120,21 @@
 		4A88E0F2168580D20026BBF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A88E107168581230026BBF4 /* CoreVideo.framework */,
+				4A88E1051685811B0026BBF4 /* QTKit.framework */,
 				4A88E0F3168580D20026BBF4 /* Foundation.framework */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4A88E0F5168580D20026BBF4 /* iOSVirtualCameraSA */ = {
 			isa = PBXGroup;
 			children = (
 				4A88E0F6168580D20026BBF4 /* main.m */,
-				4A88E0FA168580D20026BBF4 /* iOSVirtualCameraSA.1 */,
+				4A88E101168581040026BBF4 /* QTCapture */,
 				4A88E0F8168580D20026BBF4 /* Supporting Files */,
+				4A88E0F2168580D20026BBF4 /* Frameworks */,
 			);
 			path = iOSVirtualCameraSA;
 			sourceTree = "<group>";
@@ -88,6 +147,73 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4A88E101168581040026BBF4 /* QTCapture */ = {
+			isa = PBXGroup;
+			children = (
+				4A88E102168581040026BBF4 /* QTCamera.h */,
+				4A88E103168581040026BBF4 /* QTCamera.m */,
+			);
+			path = QTCapture;
+			sourceTree = "<group>";
+		};
+		4A88E11D16859C6D0026BBF4 /* iOSVirtualCameraClientSA */ = {
+			isa = PBXGroup;
+			children = (
+				4A88E12616859C6D0026BBF4 /* AppDelegate.h */,
+				4A88E12716859C6D0026BBF4 /* AppDelegate.m */,
+				4A88E12F16859C6D0026BBF4 /* ViewController.h */,
+				4A88E13016859C6D0026BBF4 /* ViewController.m */,
+				4A88E13216859C6D0026BBF4 /* ViewController.xib */,
+				4ACB51431685C8A80012284B /* iOSVirtualCameraSA.h */,
+				4A88E13816859CC00026BBF4 /* GLESView */,
+				4A88E11E16859C6D0026BBF4 /* Supporting Files */,
+				4A88E14116859D470026BBF4 /* Frameworks */,
+			);
+			path = iOSVirtualCameraClientSA;
+			sourceTree = "<group>";
+		};
+		4A88E11E16859C6D0026BBF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A88E11F16859C6D0026BBF4 /* iOSVirtualCameraClientSA-Info.plist */,
+				4A88E12016859C6D0026BBF4 /* InfoPlist.strings */,
+				4A88E12316859C6D0026BBF4 /* main.m */,
+				4A88E12516859C6D0026BBF4 /* iOSVirtualCameraClientSA-Prefix.pch */,
+				4A88E12916859C6D0026BBF4 /* Default.png */,
+				4A88E12B16859C6D0026BBF4 /* Default@2x.png */,
+				4A88E12D16859C6D0026BBF4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A88E13816859CC00026BBF4 /* GLESView */ = {
+			isa = PBXGroup;
+			children = (
+				4A88E13916859CC10026BBF4 /* GLESView.h */,
+				4A88E13A16859CC10026BBF4 /* GLESView.m */,
+			);
+			path = GLESView;
+			sourceTree = "<group>";
+		};
+		4A88E13C16859D2D0026BBF4 /* SHMVideo */ = {
+			isa = PBXGroup;
+			children = (
+				4A88E13D16859D2D0026BBF4 /* SHMVideo.h */,
+				4A88E13E16859D2D0026BBF4 /* SHMVideo.m */,
+			);
+			path = SHMVideo;
+			sourceTree = "<group>";
+		};
+		4A88E14116859D470026BBF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A88E14616859D6F0026BBF4 /* QuartzCore.framework */,
+				4A88E14416859D6B0026BBF4 /* OpenGLES.framework */,
+				4A88E14216859D620026BBF4 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,6 +224,7 @@
 				4A88E0EB168580D20026BBF4 /* Sources */,
 				4A88E0EC168580D20026BBF4 /* Frameworks */,
 				4A88E0ED168580D20026BBF4 /* CopyFiles */,
+				4A1190EC1685C5D9000101A9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -107,6 +234,23 @@
 			productName = iOSVirtualCameraSA;
 			productReference = 4A88E0EF168580D20026BBF4 /* iOSVirtualCameraSA */;
 			productType = "com.apple.product-type.tool";
+		};
+		4A88E11516859C6D0026BBF4 /* iOSVirtualCameraClientSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A88E13516859C6D0026BBF4 /* Build configuration list for PBXNativeTarget "iOSVirtualCameraClientSA" */;
+			buildPhases = (
+				4A88E11216859C6D0026BBF4 /* Sources */,
+				4A88E11316859C6D0026BBF4 /* Frameworks */,
+				4A88E11416859C6D0026BBF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSVirtualCameraClientSA;
+			productName = iOSVirtualCameraClientSA;
+			productReference = 4A88E11616859C6D0026BBF4 /* iOSVirtualCameraClientSA.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -130,9 +274,41 @@
 			projectRoot = "";
 			targets = (
 				4A88E0EE168580D20026BBF4 /* iOSVirtualCameraSA */,
+				4A88E11516859C6D0026BBF4 /* iOSVirtualCameraClientSA */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A88E11416859C6D0026BBF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A88E12216859C6D0026BBF4 /* InfoPlist.strings in Resources */,
+				4A88E12A16859C6D0026BBF4 /* Default.png in Resources */,
+				4A88E12C16859C6D0026BBF4 /* Default@2x.png in Resources */,
+				4A88E12E16859C6D0026BBF4 /* Default-568h@2x.png in Resources */,
+				4A88E13416859C6D0026BBF4 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A1190EC1685C5D9000101A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -f \"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME\" ]; then\n    \"$PROJECT_DIR/Tools/bin2bytearray\" \"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME\" > \"$PROJECT_DIR/iOSVirtualCameraClientSA/iOSVirtualCameraSA.h\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A88E0EB168580D20026BBF4 /* Sources */ = {
@@ -140,10 +316,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A88E0F7168580D20026BBF4 /* main.m in Sources */,
+				4A88E104168581040026BBF4 /* QTCamera.m in Sources */,
+				4A88E13F16859D2D0026BBF4 /* SHMVideo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A88E11216859C6D0026BBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A88E12416859C6D0026BBF4 /* main.m in Sources */,
+				4A88E12816859C6D0026BBF4 /* AppDelegate.m in Sources */,
+				4A88E13116859C6D0026BBF4 /* ViewController.m in Sources */,
+				4A88E13B16859CC10026BBF4 /* GLESView.m in Sources */,
+				4A88E14016859D2D0026BBF4 /* SHMVideo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A88E12016859C6D0026BBF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A88E12116859C6D0026BBF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A88E13216859C6D0026BBF4 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A88E13316859C6D0026BBF4 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4A88E0FC168580D20026BBF4 /* Debug */ = {
@@ -215,6 +424,46 @@
 			};
 			name = Release;
 		};
+		4A88E13616859C6D0026BBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSVirtualCameraClientSA/iOSVirtualCameraClientSA-Prefix.pch";
+				INFOPLIST_FILE = "iOSVirtualCameraClientSA/iOSVirtualCameraClientSA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A88E13716859C6D0026BBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSVirtualCameraClientSA/iOSVirtualCameraClientSA-Prefix.pch";
+				INFOPLIST_FILE = "iOSVirtualCameraClientSA/iOSVirtualCameraClientSA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -234,6 +483,16 @@
 				4A88E100168580D20026BBF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A88E13516859C6D0026BBF4 /* Build configuration list for PBXNativeTarget "iOSVirtualCameraClientSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A88E13616859C6D0026BBF4 /* Debug */,
+				4A88E13716859C6D0026BBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
